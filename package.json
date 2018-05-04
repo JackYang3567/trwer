@@ -1,0 +1,38 @@
+{
+  "name": "trwer",
+  "version": "1.0.0",
+  "description": "hello-world 项目的第二版",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress",
+    "prestart": "npm run build",
+    "start": "babel-node index-server.js"
+  },
+  "keywords": [
+    "React",
+    "state",
+    "setState",
+    "explicitly",
+    "passing",
+    "props"
+  ],
+  "author": "Jack",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.15.5",
+    "mongoose": "^5.0.17",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-env": "1.6.0",
+    "babel-preset-react": "6.24.1",
+    "babel-preset-stage-0": "6.24.1",
+    "webpack": "3.6.0"
+  }
+}
