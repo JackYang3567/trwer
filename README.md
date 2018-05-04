@@ -16,6 +16,7 @@ npm install --save react-router-dom
 
 ## Config
 Create a directory config in the project root directory, and create a file credentials. Config.js, which contains the following code:
+
 <code>
 module.exports = {
     mongo: {        
@@ -29,7 +30,6 @@ module.exports = {
             connectionString: 'mongodb://192.168.3.10:27017/issuetracker',
         },
     },
-
 };
 </code>
 
