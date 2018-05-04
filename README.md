@@ -19,7 +19,9 @@ Create a directory config in the project root directory, and create a file crede
 
 <code>
 module.exports = {
-    mongo: {        
+
+    mongo: {   
+             
         development: {
         // connectionString: 'mongodb://root:12345abc@localhost:27017/admin',
             connectionString: 'mongodb://192.168.3.10:27017/issuetracker',
